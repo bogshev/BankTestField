@@ -19,7 +19,15 @@ public class HeatingUp {
             eList.add(new Costumer("Default costumer-"+i));
             eList.add(new Employer("Default employer-"+i));
             eList.add(new Manager("Default manager-"+i));
+            //Math.random()
+                    StringBuffer stringBuffer = new StringBuffer("I am not GAY");
+            stringBuffer.delete(stringBuffer.indexOf("not"),stringBuffer.indexOf("not")+3);
+            System.out.println(stringBuffer);
         }
+    }
+
+    public String randomId(){
+        return "";
     }
 
 }
