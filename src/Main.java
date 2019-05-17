@@ -6,6 +6,7 @@ import Users.Manager;
 import Users.User;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
@@ -13,19 +14,21 @@ public class Main {
 
     public static void main(String[] args) {
         Transfer transfer = new Transfer();
+        Scanner scan = new Scanner(System.in);
+        int n = 7; //length of user id
+        String answer;
 
-        int n = 8; //length of user id
-
-        ArrayList<User> info = new ArrayList<>();
+        HashSet<User> info = new HashSet<>();
 //        info.add(new Costumer("cos"));
 //        info.add(new Employer("emp"));            ////hardcoded users
 //        info.add(new Manager("man"));
+
         HeatingUp toHeat = new HeatingUp(info);
         toHeat.action(n);
-        String answer;
+
         do {
             System.out.println("Write down action: \n1.Add \n2.Delete \n3.Transfer \n4.List");
-            Scanner scan = new Scanner(System.in);
+
             int action = scan.nextInt();
             User user1 = null;
             User user2 = null;
@@ -35,17 +38,19 @@ public class Main {
 //ADD
                 case 1:
                     System.out.println("Type id");
-                    Scanner scanID = new Scanner(System.in);
+//                    Scanner scanID = new Scanner(System.in);
                     String addId = scan.next();
                     System.out.println("Type job: \n1.Manager\n2.Employer\n3.Costumer");
-                    Scanner scanJob = new Scanner(System.in);
+//                    Scanner scanJob = new Scanner(System.in);
                     int job = scan.nextInt();
 
                     if (job == 1) {
                         info.add(new Manager(addId));
-                    } else if (job == 2) {
+                    } else
+                        if (job == 2) {
                         info.add(new Employer(addId));
-                    } else if (job == 3) {
+                    } else
+                        if (job == 3) {
                         info.add(new Costumer(addId));
                     }
                     break;
@@ -55,17 +60,15 @@ public class Main {
                 case 2:
 
                     System.out.println("Type name");
-                    Scanner scanDelete = new Scanner(System.in);
+//                    Scanner scanDelete = new Scanner(System.in);
                     String delId = scan.next();
-                    User tmpUser = null;
+
                     for ( User user : info ) {
                         if (user.getId().equals(delId)) {
-                            tmpUser = user;
+                            User tmpUser = user;
                             System.out.println(user.getId() + " deleted");
+                            info.remove(tmpUser);
                         }
-                    }
-                    if (tmpUser != null) {
-                        info.remove(tmpUser);
                     }
 
                     break;
@@ -112,9 +115,9 @@ public class Main {
                     }
                     break;
             }
+
             System.out.println("Continue? Y/N");
             answer = scan.next();
-
 
         } while (answer.toLowerCase().contains("y"));
 

@@ -3,8 +3,8 @@ package Users;
 public class Employer extends BaseUser {
 
 
-    public Employer(String name) {
-        super(name);
+    public Employer(String id) {
+        super(id);
     }
 
     public void iD(){

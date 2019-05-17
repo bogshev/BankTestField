@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d34803-cf95-428d-92bb-fea2d65d4e1d" name="Default Changelist" comment="">
+    <list default="true" id="a5d34803-cf95-428d-92bb-fea2d65d4e1d" name="Default Changelist" comment="replaced all ArrayList with HashSet,">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankTestField/Actions/HeatingUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankTestField/Actions/HeatingUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankTestField/META-INF/BankTestField.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankTestField/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankTestField/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actions/HeatingUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/HeatingUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Costumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Costumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Employer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="29">
+              <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1558090482090" expanded="false" signature="404:519" ph="..." />
+                <marker date="1558111792496" expanded="true" signature="489:639" ph="..." />
               </folding>
             </state>
           </provider>
@@ -40,10 +46,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Actions/HeatingUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Users/BaseUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="298">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,55 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Users/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Users/Costumer.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Actions/HeatingUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankTestField.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Users/Employer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-              </folding>
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -126,6 +103,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>list</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -139,11 +122,11 @@
         <option value="$PROJECT_DIR$/src/Users/User.java" />
         <option value="$PROJECT_DIR$/src/Users/BaseUser.java" />
         <option value="$PROJECT_DIR$/src/Actions/Transfer.java" />
+        <option value="$PROJECT_DIR$/src/Users/Manager.java" />
         <option value="$PROJECT_DIR$/src/Users/Costumer.java" />
         <option value="$PROJECT_DIR$/src/Users/Employer.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Users/Manager.java" />
         <option value="$PROJECT_DIR$/src/Actions/HeatingUp.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -165,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,11 +178,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -251,6 +235,7 @@
       <workItem from="1557745874850" duration="43835000" />
       <workItem from="1558092137123" duration="829000" />
       <workItem from="1558095858792" duration="60000" />
+      <workItem from="1558097688160" duration="10465000" />
     </task>
     <task id="LOCAL-00001" summary="adding class for automatic generation of users">
       <created>1558090688789</created>
@@ -266,16 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558090748075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="id randomised">
+      <created>1558101592563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558101592563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49883000" />
+    <option name="totallyTimeSpent" value="60348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12405446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +277,7 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.67776096" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.19476268" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.17184943" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -305,37 +297,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12405446" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.67776096" weight="0.3289689" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32890365" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.19476268" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.32223904" side_tool="true" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -343,7 +304,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding class for automatic generation of users" />
     <MESSAGE value="updating" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating" />
+    <MESSAGE value="id randomiser" />
+    <MESSAGE value="id randomised" />
+    <option name="LAST_COMMIT_MESSAGE" value="id randomised" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Actions.java" />
@@ -403,31 +366,6 @@
           <notes />
           <edges />
           <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="203.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Main">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Main</OriginalElement>
-          <nodes>
-            <node x="" y="">Main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="37.0" y="14.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -533,28 +471,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/BankTestField.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="200" column="25" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Main</OriginalElement>
+          <nodes>
+            <node x="287.308125" y="558.0">Actions.Transfer</node>
+            <node x="205.49999999999997" y="209.0">Users.BaseUser</node>
+            <node x="346.9895833333333" y="428.0">Users.Employer</node>
+            <node x="225.933125" y="428.0">Users.Manager</node>
+            <node x="103.93312500000002" y="428.0">Users.Costumer</node>
+            <node x="205.49999999999997" y="0.0">Users.User</node>
+            <node x="0.0" y="547.0">Actions.HeatingUp</node>
+            <node x="203.11458333333331" y="688.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Actions.Transfer" target="Users.Employer">
+              <point x="23.25" y="-24.5" />
+              <point x="403.558125" y="527.0" />
+              <point x="397.9895833333333" y="527.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="Actions.HeatingUp" target="Users.User">
+              <point x="-31.0" y="-35.5" />
+              <point x="46.5" y="527.0" />
+              <point x="64.22312499999998" y="527.0" />
+              <point x="64.22312499999998" y="189.0" />
+              <point x="252.59999999999997" y="189.0" />
+              <point x="-31.39999999999999" y="79.5" />
+            </edge>
+            <edge source="Main" target="Users.Costumer">
+              <point x="-27.5625" y="-24.5" />
+              <point x="249.05208333333331" y="648.0" />
+              <point x="165.5" y="648.0" />
+              <point x="165.5" y="507.0" />
+              <point x="154.93312500000002" y="507.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="Main" target="Actions.HeatingUp">
+              <point x="-64.3125" y="-24.5" />
+              <point x="212.30208333333331" y="668.0" />
+              <point x="38.75" y="668.0" />
+              <point x="-38.75" y="35.5" />
+            </edge>
+            <edge source="Actions.Transfer" target="Users.User">
+              <point x="69.75" y="-24.5" />
+              <point x="450.058125" y="527.0" />
+              <point x="459.4895833333333" y="527.0" />
+              <point x="459.4895833333333" y="189.0" />
+              <point x="315.4" y="189.0" />
+              <point x="31.40000000000002" y="79.5" />
+            </edge>
+            <edge source="Actions.HeatingUp" target="Users.Costumer">
+              <point x="0.0" y="-35.5" />
+              <point x="77.5" y="507.0" />
+              <point x="120.93312500000002" y="507.0" />
+              <point x="-34.0" y="24.5" />
+            </edge>
+            <edge source="Users.BaseUser" target="Users.User">
+              <point x="0.0" y="-79.5" />
+              <point x="1.4210854715202004E-14" y="79.5" />
+            </edge>
+            <edge source="Main" target="Users.User">
+              <point x="64.3125" y="-24.5" />
+              <point x="340.9270833333333" y="668.0" />
+              <point x="494.808125" y="668.0" />
+              <point x="494.808125" y="179.0" />
+              <point x="346.79999999999995" y="179.0" />
+              <point x="62.80000000000001" y="79.5" />
+            </edge>
+            <edge source="Actions.Transfer" target="Users.Manager">
+              <point x="-23.25" y="-24.5" />
+              <point x="357.058125" y="497.0" />
+              <point x="305.09979166666665" y="497.0" />
+              <point x="31.666666666666686" y="24.5" />
+            </edge>
+            <edge source="Main" target="Actions.Transfer">
+              <point x="9.1875" y="-24.5" />
+              <point x="285.8020833333333" y="638.0" />
+              <point x="333.808125" y="638.0" />
+              <point x="-46.5" y="24.5" />
+            </edge>
+            <edge source="Actions.HeatingUp" target="Users.Manager">
+              <point x="31.0" y="-35.5" />
+              <point x="108.5" y="517.0" />
+              <point x="241.7664583333333" y="517.0" />
+              <point x="-31.666666666666686" y="24.5" />
+            </edge>
+            <edge source="Main" target="Users.Manager">
+              <point x="-9.1875" y="-24.5" />
+              <point x="267.4270833333333" y="668.0" />
+              <point x="273.433125" y="668.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="Users.Costumer" target="Users.BaseUser">
+              <point x="25.5" y="-24.5" />
+              <point x="180.43312500000002" y="398.0" />
+              <point x="244.74999999999997" y="398.0" />
+              <point x="-39.25" y="79.5" />
+            </edge>
+            <edge source="Main" target="Users.Employer">
+              <point x="45.9375" y="-24.5" />
+              <point x="322.5520833333333" y="658.0" />
+              <point x="483.808125" y="658.0" />
+              <point x="483.808125" y="517.0" />
+              <point x="431.9895833333333" y="517.0" />
+              <point x="34.0" y="24.5" />
+            </edge>
+            <edge source="Users.Manager" target="Users.BaseUser">
+              <point x="-23.75" y="-24.5" />
+              <point x="249.683125" y="408.0" />
+              <point x="270.91666666666663" y="408.0" />
+              <point x="-13.083333333333314" y="79.5" />
+            </edge>
+            <edge source="Users.Employer" target="Users.BaseUser">
+              <point x="-25.5" y="-24.5" />
+              <point x="372.4895833333333" y="408.0" />
+              <point x="323.25" y="408.0" />
+              <point x="39.25" y="79.5" />
+            </edge>
+            <edge source="Actions.HeatingUp" target="Users.Employer">
+              <point x="62.0" y="-35.5" />
+              <point x="139.5" y="527.0" />
+              <point x="363.9895833333333" y="527.0" />
+              <point x="-34.0" y="24.5" />
+            </edge>
+            <edge source="Actions.Transfer" target="Users.Costumer">
+              <point x="-69.75" y="-24.5" />
+              <point x="310.558125" y="507.0" />
+              <point x="188.93312500000002" y="507.0" />
+              <point x="34.0" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="89.0" y="529.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Users/Costumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1558090482090" expanded="false" signature="404:519" ph="..." />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Users/User.java">
+    <entry file="file://$PROJECT_DIR$/src/Users/Employer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Users/BaseUser.java">
+    <entry file="file://$PROJECT_DIR$/src/Users/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -568,48 +671,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Users/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/Users/BaseUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Users/Costumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="298">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankTestField.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Users/Employer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1213">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3049">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Actions/HeatingUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="124">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1558111792496" expanded="true" signature="489:639" ph="..." />
           </folding>
         </state>
       </provider>

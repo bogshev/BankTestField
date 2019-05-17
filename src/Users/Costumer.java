@@ -3,8 +3,8 @@ package Users;
 public class Costumer extends BaseUser {
 
 
-    public Costumer(String name) {
-        super(name);
+    public Costumer(String id) {
+        super(id);
     }
 
     public void iD(){
