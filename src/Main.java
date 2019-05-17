@@ -5,23 +5,23 @@ import Users.Employer;
 import Users.Manager;
 import Users.User;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Transfer transfer = new Transfer();
 
+        int n = 8; //length of user id
 
         ArrayList<User> info = new ArrayList<>();
-        info.add(new Costumer("cos"));
-        info.add(new Employer("emp"));
-        info.add(new Manager("man"));
+//        info.add(new Costumer("cos"));
+//        info.add(new Employer("emp"));            ////hardcoded users
+//        info.add(new Manager("man"));
         HeatingUp toHeat = new HeatingUp(info);
-        toHeat.action();
+        toHeat.action(n);
         String answer;
         do {
             System.out.println("Write down action: \n1.Add \n2.Delete \n3.Transfer \n4.List");
@@ -100,7 +100,7 @@ public class Main {
                     System.out.println("Amount to transfer: ");
                     Scanner scanAmount = new Scanner(System.in);
                     int amount = scanAmount.nextInt();
-                    transfer.action(user1, user2, amount);
+                    Transfer.action(user1, user2, amount);
                     break;
 
 //LIST
